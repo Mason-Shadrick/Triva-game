@@ -1,0 +1,19 @@
+*{
+    font-family: 'Indie Flower', cursive;
+}
+
+h1{
+    font-family: 'Pacifico', cursive;
+
+}
+
+.answersALL{
+    background-color: lightpink;
+}
+.jumbotron{
+    background-color: lightskyblue;
+}
+body{
+    background-image: url("greenLogo.jpg");
+    background-size: repeat;
+}

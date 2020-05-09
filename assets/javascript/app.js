@@ -63,7 +63,8 @@ $(document).ready(function(){
         $('.question').html(question);
         for (var i = 0; i < 4; i++){
             var answer = triviaGame[indexQandA].answer[i];
-            $('.answers').append('<h4 class = answersAll id=' + i + '>' + answer + '</h4>');
+            $('.answers').append('<h4 class = answersAll id=' + i + '>' + answer + '</h4></br>');
+            $('.answersAll').css({'background-color': 'lightpink'})
         }
         // on clicks for answers
         $("h4").on("click", function(){
@@ -96,7 +97,7 @@ $(document).ready(function(){
             clearInterval(intervalID);
         } else{
             timeRemain--;
-            $('.timeRemaining').text('You have ' + timeRemain + "seconds to choose!")
+            $('.timeRemaining').text('You have ' + timeRemain + " seconds to choose!")
         }
     }
     //reset on win replacing time with the you got it right text then reset

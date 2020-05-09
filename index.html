@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Community Trivia</title>
+    <!--bootstrap-->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <!--My css-->
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <div id="wrapper">
+        <!--container for quiz-->
+      <div class="container">
+          <!--row with places to update with JS-->
+        <section class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12">
+            <div class="jumbotron animated zoomIn">
+              <h1>Community Trivia!</h1>
+              <h5 class="timeRemaining"></h5>
+              <h3 class="question questionHeader"></h3>
+              <div class="answers"></div>
+              <!--button to start quiz-->
+              <p class="start-button text-center animated zoomInDown">
+                <a class="btn btn-primary btn-lg startButton animated pulse infinite" href="#" value="Start!" role="button">
+                  <span class="glyphicon glyphicon-off"></span>
+                </a>
+              </p>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <!--Jquery-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!--My javascript-->
+    <script src="assets/javascript/app.js"></script>
+  </body>
+</html>

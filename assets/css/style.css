@@ -1,19 +1,18 @@
-*{
-    font-family: 'Indie Flower', cursive;
+* {
+  font-family: "Indie Flower", cursive;
 }
 
-h1{
-    font-family: 'Pacifico', cursive;
-
+h1 {
+  font-family: "Pacifico", cursive;
 }
 
-.answersALL{
-    background-color: lightpink;
+.answersALL {
+  background-color: lightpink;
 }
-.jumbotron{
-    background-color: lightskyblue;
+.jumbotron {
+  background-color: lightskyblue;
 }
-body{
-    background-image: url("greenLogo.jpg");
-    background-size: repeat;
+body {
+  background-image: url("greenLogo.jpg");
+  background-size: repeat;
 }
